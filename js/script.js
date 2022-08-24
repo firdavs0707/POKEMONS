@@ -1,9 +1,5 @@
 let elList = $('.js-list');
 
-
-
-
-
 pokemons.forEach(pokemon =>{
   let li = CreateElement('li');
   let img = CreateElement('img', 'card-img-top');
