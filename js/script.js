@@ -19,10 +19,8 @@ pokemons.forEach(pokemon =>{
   title.classList.add('card-title', 'text-center')
   text.classList.add('card-text', 'text-center')
   cardBody.classList.add('card-body')
-
   
   li.append(img, cardBody)
   li.classList.add('card', 'm-2', 'width','text-light')
   
-
 })
